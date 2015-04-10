@@ -25,7 +25,7 @@ curdir = os.path.dirname(os.path.abspath(__file__))
 os.chdir(curdir)
 
 slack = Slacker(os.environ['TOKEN'])
-username = os.environ['USERNAME'] if 'USERNAME' in os.environ.keys() else 'Dictator Barry'
+username = os.environ['USERNAME'] if 'USERNAME' in os.environ.keys() else 'Big Brother'
 icon_emoji = os.environ['ICON_EMOJI'] if 'ICON_EMOJI' in os.environ.keys() else ':coffee:'
 channel = os.environ['CHANNEL'] if 'CHANNEL' in os.environ.keys() else '#standup'
 ignore_users = os.environ['IGNORE_USERS'] if 'IGNORE_USERS' in os.environ.keys() else ''
